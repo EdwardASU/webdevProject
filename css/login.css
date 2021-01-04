@@ -1,0 +1,150 @@
+.login_border{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    height: 27vh;
+    width: 25vw;
+    text-align: center;
+    margin-left: 38vw;
+    margin-top: 30vh;
+}
+.register_border{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    height: 56vh;
+    width: 25vw;
+    text-align: center;
+    margin-left: 38vw;
+    margin-top: 30vh;
+}
+.login{
+    
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        background-color: black;
+        font-size: 1.1em;
+        color: white;
+        border-radius: 2.5em;
+        margin-top: 2%;
+        height: 12%;
+        width: 65%;
+    
+}
+
+.register{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: gray;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    margin-top: 1%;
+        height: 12%;
+        width: 65%;
+}
+
+.back{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    height: 12%;
+    width: 65%;
+    margin-top: 2%;
+}
+
+.username{
+border-radius: 2.5em;
+height: 6%;
+margin-top: 2%;
+width: 52%;
+text-align: center;
+}
+
+.password{
+    border-radius: 2.5em;
+    height: 6%;
+    margin-top: 2%;
+    width: 52%;
+    text-align: center;
+}
+
+.address{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.fName{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.rusername{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.rpassword{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.rregister{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: gray;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    margin-top: 3%;
+        height: 6%;
+        width: 65%;
+}
+
+.rback{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    height: 6%;
+    width: 65%;
+    margin-top: 2%;
+}
+
+.forget{
+    text-decoration: none;
+    color: black;
+}
+
+.fback{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    height: 12%;
+    width: 65%;
+    margin-top: 6%;
+}

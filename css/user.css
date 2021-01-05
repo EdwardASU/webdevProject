@@ -1,0 +1,59 @@
+.user_border{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    height: 73vh;
+    width: 25vw;
+    text-align: center;
+    margin-left: 38vw;
+    margin-top: 8%;
+}
+
+.back{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    height: 6%;
+    width: 65%;
+    margin-top: 2%;
+}
+
+.password{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 52%;
+    text-align: center;
+}
+
+.address{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.fName{
+    border-radius: 2.5em;
+    height: 3%;
+    margin-top: 2%;
+    width: 42%;
+    text-align: center;
+}
+
+.register{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: gray;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 2.5em;
+    margin-top: 3%;
+        height: 6%;
+        width: 65%;
+}

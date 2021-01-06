@@ -85,7 +85,8 @@ function forgetPass(){
         },
         success:function(msg){
            if(msg == "success"){
-               alert("Your new password is sented")
+               alert("Your new password is sented");
+               window.location.assign("login.html");
            }
            if(msg == "database"){
             alert("database error");
@@ -146,17 +147,22 @@ function UpdateInfo(username){
             email : email
         },
         success:function(result){
+            
             if(result == "success"){
                 alert("changed saved");
+                
                }
                if(result == "wrong"){
                    alert("Your old password is wrong");
+                   
                }
                 if(result == "database"){
                     alert("database error");
+                    
                 }
                 if(result == "not same"){
                     alert("Your new password is not matched");
+                    
                 }
                 
         }

@@ -3,7 +3,7 @@ include_once 'login.php';
 include_once 'config.php';
 $username = $_POST['username'];
 
-if(isset($_POST['oldPass']) && isset($_POST['password1']) && isset($_POST['password2'])){
+if($_POST['oldPass'] != null && $_POST['password1'] != null && $_POST['password2'] != null){
 $oldPass = sha1($_POST['oldPass']);
 $pass1 = sha1($_POST['password1']);
 $pass2 = sha1($_POST['password2']);
@@ -26,7 +26,7 @@ else{
 }
 
 }
-
+else{
 $fullname = $_POST['fullname'];
 $address1 = $_POST['address1'];
 $address2 = $_POST['address2'];
@@ -42,5 +42,5 @@ if(preg_match('/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/',$email)){
 
     echo "success";
 }
-
+}
 ?>
